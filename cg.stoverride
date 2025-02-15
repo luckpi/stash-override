@@ -1,5 +1,5 @@
-override: 覆写规则
-prepend:
+name: CG补充规则
+rules:
   - 'DOMAIN-KEYWORD,steam,🔰国外流量'
   - 'DOMAIN-KEYWORD,cloudflare,🔰国外流量'
   - 'DOMAIN-SUFFIX,st.com,🔰国外流量'
@@ -36,8 +36,6 @@ prepend:
   - 'DOMAIN-SUFFIX,mistral.ai,🔰国外流量'
   - 'DOMAIN-KEYWORD,gitlab,🔰国外流量'
   - 'DOMAIN-KEYWORD,openai,🔰国外流量'
-append: []
-delete:
-  - 'DOMAIN-SUFFIX,storage.live.com,🔰国外流量'
-  - 'DOMAIN-SUFFIX,blob.core.windows.net,🔰国外流量'
-  - 'DOMAIN-SUFFIX,ieee.org,DIRECT'
+  - 'DOMAIN-SUFFIX,ieee.org,🔰国外流量'
+  - 'DOMAIN-SUFFIX,storage.live.com,DIRECT'
+  - 'DOMAIN-SUFFIX,blob.core.windows.net,DIRECT'
