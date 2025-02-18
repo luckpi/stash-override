@@ -38,6 +38,7 @@ rules:
   - 'DOMAIN-KEYWORD,openai,🔰国外流量'
   - 'DOMAIN-SUFFIX,ieee.org,🔰国外流量'
   - 'DOMAIN-SUFFIX,themoviedb.org,🔰国外流量'
+  - 'DOMAIN-SUFFIX,tmdb.org,🔰国外流量'
   - 'DOMAIN-SUFFIX,copilot.microsoft.com,🔰国外流量'
   - 'DOMAIN-SUFFIX,storage.live.com,DIRECT'
   - 'DOMAIN-SUFFIX,blob.core.windows.net,DIRECT'
