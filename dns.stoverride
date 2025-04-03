@@ -1,11 +1,5 @@
 name: 仅使用 CloudFlare DNS
-dns:
-  # 将会完整覆盖原有 default-nameserver
-  default-nameserver: #!replace
-    - system
-    - 223.5.5.5
-    - 1.0.0.1
+dns：
   # 将会完整覆盖原有 nameserver
   nameserver: #!replace
-    - https://1.0.0.1/dns-query # CF IPv4
-    - https://[2606:4700:4700::1111]/dns-query # CF IPv6
+    - 8.8.8.8
