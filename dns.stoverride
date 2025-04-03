@@ -8,4 +8,3 @@ dns:
   # 将会完整覆盖原有 nameserver
   nameserver: #!replace
     - 8.8.8.8
-    - 8.8.4.4
