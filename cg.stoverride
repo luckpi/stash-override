@@ -1,9 +1,4 @@
 name: CG补充规则
-dns:
-  # 将会完整覆盖原有 default-nameserver
-  default-nameserver: #!replace
-    - system
-    - 8.8.8.8
 rules:
   - 'DOMAIN-KEYWORD,steam,🔰国外流量'
   - 'DOMAIN-KEYWORD,cloudflare,🔰国外流量'
